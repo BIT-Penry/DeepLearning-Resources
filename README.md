@@ -10,7 +10,10 @@
 
 **状态**：✅ 已完成整合
 
-本仓库包含 **Deep Learning Specialization** 的5门核心课程：
+本仓库包含 **Deep Learning Specialization** 的5门核心课程，提供**英文原版**和**中文版**两种版本：
+
+- **英文原版**：`deeplearning.ai-andrewNG/` - 包含完整的课程资料、编程作业、课件PDF/PPT
+- **中文版**：`吴恩达深度学习作业/` - 包含中文版编程作业、Quiz小测验和课程资料
 
 1. **COURSE 1: Neural Networks and Deep Learning** (神经网络与深度学习)
    - Week 1: 深度学习概论
@@ -54,25 +57,86 @@
 ```
 DL/
 ├── deeplearning.ai-andrewNG/          # 吴恩达深度学习课程（英文原版）
-│   ├── COURSE 1-5/                    # 5门课程的完整资料
-│   │   ├── Week 01-04/                # 每周的课程内容
-│   │   │   ├── 编程作业/              # Jupyter Notebook作业
-│   │   │   ├── 课件PDF/               # 课程幻灯片
-│   │   │   └── 数据集/                # 作业所需数据
+│   ├── COURSE 1 Neural Networks and Deep Learning/
+│   │   ├── Week 01/                   # 深度学习概论（PDF/PPT课件）
+│   │   ├── Week 2/                    # 神经网络基础
+│   │   │   ├── Logistic Regression as a Neural Network/
+│   │   │   │   ├── *.ipynb           # 编程作业
+│   │   │   │   ├── datasets/         # 数据集
+│   │   │   │   └── images/           # 图片资源
+│   │   │   ├── Python Basics with Numpy/
+│   │   │   └── *.pdf/*.pptx          # 课程课件
+│   │   ├── Week 3/                    # 浅层神经网络
+│   │   │   └── Planar data classification with one hidden layer/
+│   │   └── Week 4/                    # 深层神经网络
+│   │       ├── Building your Deep Neural Network - Step by Step/
+│   │       └── Deep Neural Network Application_ Image Classification/
+│   ├── COURSE 2 Improving Deep Neural Networks.../
+│   │   ├── week 01/                   # 深度学习的实用层面
+│   │   │   ├── Initialization/
+│   │   │   ├── Regularization/
+│   │   │   └── Gradient Checking/
+│   │   ├── week 02/                   # 优化算法
+│   │   │   └── Optimization methods.ipynb
+│   │   └── week 03/                   # 超参数调试和TensorFlow
+│   │       └── Tensorflow Tutorial.ipynb
+│   ├── COURSE 3 Structuring Machine Learning Projects/
+│   │   └── Week 01-02/                # ML策略（PDF/PPT课件）
+│   ├── COURSE 4 Convolutional Neural Networks/
+│   │   ├── Week 01/                   # CNN基础
+│   │   ├── Week 02/                   # 深度CNN和ResNets
+│   │   ├── Week 03/                   # 目标检测（YOLO）
+│   │   └── Week 04/                   # 特殊应用
+│   ├── COURSE 5 Sequence Models/
+│   │   └── Week 01-04/                # RNN、LSTM、注意力机制等
 │   └── README
 │
 ├── 吴恩达深度学习作业/                 # 吴恩达深度学习课程（中文版）
-│   ├── 01-05. 各门课程/               # 对应5门课程
-│   │   ├── 编程作业/                  # 中文版编程作业
-│   │   └── quiz小测验.pdf            # 每周小测验
+│   ├── 01.机器学习和神经网络/
+│   │   ├── 1.第一周 深度学习概论/
+│   │   │   └── 第一周quiz小测验.pdf
+│   │   ├── 2.第二周 神经网络基础/
+│   │   │   ├── 第二周quiz小测验.pdf
+│   │   │   └── 编程作业/
+│   │   │       ├── assignment2_1.ipynb
+│   │   │       ├── assignment2_2.ipynb
+│   │   │       └── datasets/
+│   │   ├── 3.第三周 浅层神经网络/
+│   │   │   ├── 第三周quiz小测验.pdf
+│   │   │   └── 编程作业/
+│   │   └── 4.第四周 深层神经网络/
+│   │       ├── 第四周quiz小测验.pdf
+│   │       └── 编程作业/
+│   │           ├── assignment4_1.ipynb
+│   │           └── assignment4_2.ipynb
+│   ├── 02.改善深层神经网络：超参数调试、正则化以及优化/
+│   │   ├── 1.第一周 深度学习的实用层面/
+│   │   │   ├── 第一周 quiz小测验.pdf
+│   │   │   └── 编程作业/
+│   │   │       ├── 1.Initialization.ipynb
+│   │   │       ├── 2.Regularization.ipynb
+│   │   │       └── 3.Gradient+Checking.ipynb
+│   │   ├── 2.第二周 优化算法/
+│   │   │   └── 编程作业/
+│   │   │       └── Optimization+methods.ipynb
+│   │   └── 3.第三周 超参数调试、Batch正则化和程序框架/
+│   │       └── 编程作业/
+│   │           └── Tensorflow+Tutorial.ipynb
+│   ├── 03.结构化机器学习项目/
+│   │   ├── 1.第一周 机器学习（ML）策略（1）/
+│   │   └── 2.第二周 机器学习（ML）策略（2）/
+│   ├── 04.卷积神经网络/
+│   │   ├── 第一周 卷积神经网络/
+│   │   ├── 第二周 深度卷积网络：实例探究/
+│   │   ├── 第三周 目标检测/
+│   │   └── 第四周 特殊应用：人脸识别和神经风格转换/
+│   ├── 05.序列模型/
+│   │   └── Week 01-04/                # RNN、LSTM、注意力机制等
+│   ├── 课程资料/                      # 补充学习资料
+│   │   ├── Deeplearning深度学习笔记v5.6.pdf
+│   │   ├── 深度学习作业quiz-已完成.pdf
+│   │   └── 深度学习作业quiz-空白.pdf
 │   └── 如何打开jpynb作业文件.pdf
-│
-├── 课程资料/                          # 补充学习资料
-│   ├── Deeplearning深度学习笔记v5.6.pdf
-│   ├── 深度学习作业quiz-已完成.pdf
-│   └── 深度学习作业quiz-空白.pdf
-│
-├── [未来课程文件夹]/                   # 后续添加的课程将放在这里
 │
 ├── requirements.txt                   # Python环境依赖
 ├── train_dl.ipynb                     # 个人练习代码
@@ -156,6 +220,8 @@ DL/
 
 ### 2024
 - ✅ **吴恩达 - Deep Learning Specialization** - 已完成整合（5门课程）
+  - ✅ 英文原版课程资料：`deeplearning.ai-andrewNG/`（包含5门课程的完整资料）
+  - ✅ 中文版作业和资料：`吴恩达深度学习作业/`（包含编程作业、Quiz小测验和课程资料）
 
 ---
 
