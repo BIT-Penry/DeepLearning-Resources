@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a9ea6087704f6af55653c5f0dc6d4ca4eb22f302a70557927dd416873a6bd524
-size 137
+numpy
+scipy
+matplotlib
+h5py
+pillow
+
+tensorflow
+keras
+
+pandas
+scikit-learn
+
+tqdm
+faker
+babel
+emoji
+
+pydub
+music21
+pygame
+
+opencv-python
+
+
