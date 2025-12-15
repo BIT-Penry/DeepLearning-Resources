@@ -1,151 +1,148 @@
-# DeepLearning-Resources
+# 🚀 DeepLearning-Resources
 
-深度学习学习资源整合仓库，用于整合学习过程中的各类课程资料、编程作业和实践代码。
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Active-success)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
-> **当前状态**：本仓库正在持续更新中，目前已整合吴恩达深度学习专项课程，后续将陆续添加更多优质课程资源。
+深度学习资源整合仓库。用于收纳优质课程资料、编程作业、实战代码与学习笔记，方便持续扩展与查阅。
 
-## 📚 已整合课程
-
-### ✅ 1. 吴恩达 - Deep Learning Specialization
-
-**状态**：✅ 已完成整合
-
-本仓库包含 **Deep Learning Specialization** 的5门核心课程，提供**英文原版**和**中文版**两种版本：
-
-- **英文原版**：`deeplearning.ai-andrewNG/` - 包含完整的课程资料、编程作业、课件PDF/PPT
-- **中文版**：`吴恩达深度学习作业/` - 包含中文版编程作业、Quiz小测验和课程资料
-- **视频资料**：[吴恩达深度学习deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V?p=73&vd_source=fabe7c1b05ad19c3df47deab4ef97207)
-
-1. **COURSE 1: Neural Networks and Deep Learning** (神经网络与深度学习)
-   - Week 1: 深度学习概论
-   - Week 2: 神经网络基础（Logistic回归、Python与向量化）
-   - Week 3: 浅层神经网络
-   - Week 4: 深层神经网络
-
-2. **COURSE 2: Improving Deep Neural Networks** (改善深层神经网络)
-   - Week 1: 深度学习的实用层面（梯度检验、初始化、正则化）
-   - Week 2: 优化算法
-   - Week 3: 超参数调试、Batch正则化和程序框架（TensorFlow教程）
-
-3. **COURSE 3: Structuring Machine Learning Projects** (结构化机器学习项目)
-   - Week 1-2: 机器学习策略
-
-4. **COURSE 4: Convolutional Neural Networks** (卷积神经网络)
-   - Week 1: 卷积神经网络基础
-   - Week 2: 深度卷积网络：实例探究（Keras教程、ResNets）
-   - Week 3: 目标检测（YOLO算法）
-   - Week 4: 特殊应用（人脸识别、神经风格转换）
-
-5. **COURSE 5: Sequence Models** (序列模型)
-   - Week 1: 循环序列模型（RNN、LSTM）
-   - Week 2: 自然语言处理与词嵌入（Word2Vec、Emojify）
-   - Week 3: 序列模型和注意力机制（机器翻译、触发词检测）
-
-### ✅ 2. 哥布林学者 - 《吴恩达深度学习课程》系列笔记
-
-**状态**：✅ 已完成整合
-
-本仓库包含 **哥布林学者** 撰写的系列笔记，具体链接为[哥布林学者](https://home.cnblogs.com/u/Goblinscholar)。
-
-###
----
-
-## 📋 计划添加课程
-
-- [ ] Pytorch学习教程
-
-> 💡 **提示**：添加新课程时，请在此列表中添加，并在更新日志中记录。
+> **🌟 当前状态**：已完整收录 **吴恩达 Deep Learning Specialization**，正在持续添加 **PyTorch** 及更多高质量资源。
 
 ---
 
-## 🚀 快速开始
+## 📖 目录 (Table of Contents)
 
-### 环境配置
-
-1. **克隆仓库**
-   ```bash
-   git clone https://github.com/BIT-Penry/DeepLearning-Resources.git
-   cd DeepLearning-Resources
-   ```
-
-2. **创建虚拟环境（推荐）**
-   ```bash
-   # 使用 conda
-   conda create -n dl_env python=3.8
-   conda activate dl_env
-   
-   # 或使用 venv
-   python -m venv venv
-   source venv/bin/activate  # macOS/Linux
-   # 或 venv\Scripts\activate  # Windows
-   ```
-
-3. **安装依赖**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   > **注意**：`pyaudio` 在某些系统上可能需要额外安装系统依赖。如果安装失败，可以暂时跳过（仅影响序列模型课程中的音频处理作业）。
-
-### 运行作业
-
-1. 打开 Jupyter Notebook：
-   ```bash
-   jupyter notebook
-   ```
-
-2. 导航到对应的课程文件夹，打开 `.ipynb` 文件开始学习。
-
-3. **重要提示**：
-   - 首次使用时，请按顺序从上到下运行每个 Cell
-   - 移动作业位置时，请保持整个文件夹结构完整（包含 `images/`、`datasets/` 等资源文件夹）
-
-## 📦 主要依赖
-
-- **核心库**：`numpy`, `scipy`, `matplotlib`, `h5py`, `pillow`
-- **深度学习框架**：`tensorflow`, `keras`
-- **数据处理**：`pandas`, `scikit-learn`
-- **工具库**：`tqdm`, `faker`, `babel`, `emoji`
-- **音频处理**：`pydub`, `music21`, `pyaudio`（可选）
-- **图像处理**：`opencv-python`
-
-详细依赖列表请查看 [requirements.txt](requirements.txt)
-
-## 📝 学习建议
-
-1. **循序渐进**：按照课程顺序学习，每门课程都有前置知识要求
-2. **动手实践**：完成所有编程作业，理解代码背后的数学原理
-3. **做笔记**：结合课程资料中的笔记PDF，整理自己的学习笔记
-4. **完成Quiz**：每周的小测验有助于巩固知识点
-
-## 🔗 相关资源
-
-- [Coursera 深度学习专项课程](https://www.coursera.org/specializations/deep-learning)
-- [deeplearning.ai 官网](https://www.deeplearning.ai/)
-
-## 📄 许可证
-
-本仓库仅用于个人学习目的。课程内容版权归 deeplearning.ai 和 Coursera 所有。
-
-## 📝 更新日志
-
-记录课程资源的添加和更新情况：
-
-### 2025_12_09
-- ✅ **吴恩达 - Deep Learning Specialization** - 已完成整合（5门课程）
-  - ✅ 英文原版课程资料：`deeplearning.ai-andrewNG/`（包含5门课程的完整资料）
-  - ✅ 中文版作业和资料：`吴恩达深度学习作业/`（包含编程作业、Quiz小测验和课程资料）
-
-### 2025_12_15
-- ✅ **哥布林学者 - 《吴恩达深度学习课程》系列笔记博客**
-  - ✅ 笔记目录：[哥布林学者](https://home.cnblogs.com/u/Goblinscholar)
+- [🚀 DeepLearning-Resources](#-deeplearning-resources)
+  - [📖 目录 (Table of Contents)](#-目录-table-of-contents)
+  - [📂 仓库结构](#-仓库结构)
+  - [📚 课程与资源](#-课程与资源)
+    - [1. 吴恩达 - Deep Learning Specialization](#1-吴恩达---deep-learning-specialization)
+    - [2. 优质学习笔记](#2-优质学习笔记)
+  - [📝 待添加计划 (Roadmap)](#-待添加计划-roadmap)
+  - [🛠️ 快速开始](#️-快速开始)
+    - [1. 克隆仓库](#1-克隆仓库)
+    - [2. 环境配置 (推荐 Conda)](#2-环境配置-推荐-conda)
+    - [3. 启动学习](#3-启动学习)
+  - [📦 环境与依赖](#-环境与依赖)
+  - [💡 学习建议](#-学习建议)
+  - [📅 更新日志](#-更新日志)
+  - [🤝 贡献与许可](#-贡献与许可)
 
 ---
 
-## 🤝 贡献
+## 📂 仓库结构
 
-欢迎提交 Issue 和 Pull Request，共同完善学习资源！
+```text
+DeepLearning-Resources/
+├── deeplearning.ai-andrewNG/   # 🇺🇸 英文原版：课件 PDF/PPT、编程作业、数据、图片
+├── 吴恩达深度学习作业/          # 🇨🇳 中文版：汉化作业、Quiz 测试、补充资料
+├── train_dl.ipynb              # 🧪 个人实战练习区
+├── requirements.txt            # ⚙️ 项目依赖清单
+└── README.md                   # 📘 说明文档
+```
 
 ---
+
+## 📚 课程与资源
+
+这里按课程/主题整理了已收录的资源。后续添加新课程时，将遵循此格式。
+
+### 1. 吴恩达 - Deep Learning Specialization
+> **简介**: 深度学习入门必修课，涵盖从神经网络基础到序列模型的完整体系。  
+> **框架**: TensorFlow / Keras
+
+- **📂 资料路径**: 
+  - 英文原版：`deeplearning.ai-andrewNG/`
+  - 中文作业：`吴恩达深度学习作业/`
+- **📺 视频教程**: [bilibili - 吴恩达深度学习 deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V?p=73&vd_source=fabe7c1b05ad19c3df47deab4ef97207)
+- **🧩 课程大纲**:
+  - **COURSE 1**: Neural Networks and Deep Learning（基础 / 浅层网络）
+  - **COURSE 2**: Improving Deep Neural Networks（初始化 / 正则化 / 优化 / 超参）
+  - **COURSE 3**: Structuring Machine Learning Projects（ML 策略）
+  - **COURSE 4**: Convolutional Neural Networks（CNN / ResNets / 目标检测 / 风格迁移）
+  - **COURSE 5**: Sequence Models（RNN / LSTM / 词嵌入 / 注意力）
+
+### 2. 优质学习笔记
+> **简介**: 收录网络大神整理的笔记，辅助复习与理解。
+
+- **哥布林学者**: [《吴恩达深度学习课程》系列笔记汇总](https://home.cnblogs.com/u/Goblinscholar)
+
+---
+
+## 📝 待添加计划 (Roadmap)
+
+欢迎贡献以下领域的资源：
+
+- [ ] **PyTorch 深度学习教程** (官方教程复现 / 实战案例)
+- [ ] **Transformer 与 LLM 基础** (相关论文 / Demo)
+- [ ] **计算机视觉进阶** (分割 / 生成模型)
+
+> 💡 **提示**: 新增资源时，请保持目录结构整洁，并在本 README 中添加对应说明。
+
+---
+
+## 🛠️ 快速开始
+
+### 1. 克隆仓库
+```bash
+git clone https://github.com/BIT-Penry/DeepLearning-Resources.git
+cd DeepLearning-Resources
+```
+
+### 2. 环境配置 (推荐 Conda)
+```bash
+# 创建虚拟环境
+conda create -n dl_env python=3.8
+conda activate dl_env
+
+# 安装依赖
+pip install -r requirements.txt
+```
+> ⚠️ **注意**: `pyaudio` 可能需要额外的系统库支持。如果安装失败可暂时跳过，仅影响序列模型中的音频处理作业。
+
+### 3. 启动学习
+```bash
+jupyter notebook
+```
+在浏览器中导航至对应课程目录，打开 `.ipynb` 文件即可开始。  
+**提示**: 移动作业文件时，请务必保留其所在文件夹的完整结构（包含 `images/`, `datasets/` 等），否则会导致报错。
+
+---
+
+## 📦 环境与依赖
+
+本项目主要基于以下技术栈：
+
+| 类别 | 库/工具 |
+| :--- | :--- |
+| **深度学习** | `tensorflow`, `keras` (未来将增加 `torch`) |
+| **科学计算** | `numpy`, `scipy`, `pandas`, `scikit-learn` |
+| **可视化** | `matplotlib` |
+| **工具/处理** | `h5py`, `pillow`, `tqdm`, `opencv-python` |
+
+完整列表请参阅 [requirements.txt](requirements.txt)。
+
+---
+
+## 💡 学习建议
+
+1.  **循序渐进**: 课程设计有前后依赖，建议按 `COURSE 1` -> `COURSE 5` 的顺序学习。
+2.  **动手实践**: 不要只看视频，务必亲自运行并完成 `.ipynb` 中的作业，这是理解数学推导的关键。
+3.  **善用 Quiz**: 每周的 Quiz 是检查理论掌握程度的最好方式。
+4.  **笔记复盘**: 结合仓库中的课件 PDF 和外部优质笔记进行复习。
+
+---
+
+## 📅 更新日志
+
+- **2025-12-15**: 新增哥布林学者笔记链接。
+- **2025-12-09**: 仓库初始化，完整整合吴恩达 Deep Learning Specialization（中/英双版）。
+
+---
+
+## 🤝 贡献与许可
+
+- **贡献**: 欢迎提交 Issue 或 Pull Request 分享更多深度学习资源！
+- **许可**: 本仓库内容仅供个人学习使用。课程资料版权归 **deeplearning.ai** 与 **Coursera** 所有。
 
 **Happy Learning! 🎓**
