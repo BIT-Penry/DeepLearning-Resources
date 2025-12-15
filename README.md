@@ -54,6 +54,7 @@ DeepLearning-Resources/
 - **📂 资料路径**: 
   - 英文原版：`deeplearning.ai-andrewNG/`
   - 中文作业：`吴恩达深度学习作业/`
+  - 课后作业：[吴恩达深度学习课后作业解析](https://blog.csdn.net/u013733326/article/details/79827273)
 - **📺 视频教程**: [bilibili - 吴恩达深度学习 deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V?p=73&vd_source=fabe7c1b05ad19c3df47deab4ef97207)
 - **🧩 课程大纲**:
   - **COURSE 1**: Neural Networks and Deep Learning（基础 / 浅层网络）
