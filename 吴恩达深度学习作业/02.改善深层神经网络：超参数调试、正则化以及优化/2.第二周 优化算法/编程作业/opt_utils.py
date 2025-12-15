@@ -184,7 +184,8 @@ def predict(X, y, parameters):
     """
     
     m = X.shape[1]
-    p = np.zeros((1,m), dtype = np.int)
+    # np.int 在 NumPy 2.0 中已移除，直接使用内置 int 即可
+    p = np.zeros((1, m), dtype=int)
     
     # Forward propagation
     a3, caches = forward_propagation(X, parameters)
