@@ -6,7 +6,7 @@
 
 深度学习资源整合仓库。用于收纳优质课程资料、编程作业、实战代码与学习笔记，方便持续扩展与查阅。
 
-> **🌟 当前状态**：已完整收录 **吴恩达 Deep Learning Specialization**，正在持续添加 **PyTorch** 及更多高质量资源。
+> **🌟 当前状态**：已完整收录 **吴恩达 Deep Learning Specialization** + **学习路线与精选电子书**，正在持续添加 **PyTorch** 及更多高质量资源。
 
 ---
 
@@ -17,7 +17,10 @@
   - [📂 仓库结构](#-仓库结构)
   - [📚 课程与资源](#-课程与资源)
     - [1. 吴恩达 - Deep Learning Specialization](#1-吴恩达---deep-learning-specialization)
-    - [2. 优质学习笔记](#2-优质学习笔记)
+    - [2. PyTorch 深度学习教程](#2-pytorch-深度学习教程)
+  - [📕 学习路线与电子书](#-学习路线与电子书)
+    - [📍 学习路线](#-学习路线)
+    - [📖 精选电子书](#-精选电子书)
   - [📝 待添加计划 (Roadmap)](#-待添加计划-roadmap)
   - [🛠️ 快速开始](#️-快速开始)
     - [1. 克隆仓库](#1-克隆仓库)
@@ -36,6 +39,7 @@
 DeepLearning-Resources/
 ├── deeplearning.ai-andrewNG/   # 🇺🇸 英文原版：课件 PDF/PPT、编程作业、数据、图片
 ├── 吴恩达深度学习作业/          # 🇨🇳 中文版：汉化作业、Quiz 测试、补充资料
+├── 学习路线+电子书/             # 📚 学习路线图 + 精选电子书资源
 ├── train_dl.ipynb              # 🧪 个人实战练习区
 ├── requirements.txt            # ⚙️ 项目依赖清单
 └── README.md                   # 📘 说明文档
@@ -54,8 +58,10 @@ DeepLearning-Resources/
 - **📂 资料路径**: 
   - 英文原版：`deeplearning.ai-andrewNG/`
   - 中文作业：`吴恩达深度学习作业/`
-  - 课后作业：[吴恩达深度学习课后作业解析](https://blog.csdn.net/u013733326/article/details/79827273)
-- **📺 视频教程**: [bilibili - 吴恩达深度学习 deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V?p=73&vd_source=fabe7c1b05ad19c3df47deab4ef97207)
+- **📺 视频教程**: [bilibili - 吴恩达深度学习 deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V?vd_source=fabe7c1b05ad19c3df47deab4ef97207)
+- **📝 配套资源**:
+  - 课后作业解析：[吴恩达深度学习课后作业解析](https://blog.csdn.net/u013733326/article/details/79827273)
+  - 学习笔记：[哥布林学者 -《吴恩达深度学习课程》系列笔记汇总](https://home.cnblogs.com/u/Goblinscholar)
 - **🧩 课程大纲**:
   - **COURSE 1**: Neural Networks and Deep Learning（基础 / 浅层网络）
   - **COURSE 2**: Improving Deep Neural Networks（初始化 / 正则化 / 优化 / 超参）
@@ -63,10 +69,43 @@ DeepLearning-Resources/
   - **COURSE 4**: Convolutional Neural Networks（CNN / ResNets / 目标检测 / 风格迁移）
   - **COURSE 5**: Sequence Models（RNN / LSTM / 词嵌入 / 注意力）
 
-### 2. 优质学习笔记
-> **简介**: 收录网络大神整理的笔记，辅助复习与理解。
+### 2. PyTorch 深度学习教程
+> **简介**: PyTorch 是目前学术界最流行的深度学习框架，以灵活性和易用性著称。  
+> **框架**: PyTorch
 
-- **哥布林学者**: [《吴恩达深度学习课程》系列笔记汇总](https://home.cnblogs.com/u/Goblinscholar)
+- **📺 视频教程**: [PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】](https://www.bilibili.com/video/BV1hE411t7RN?vd_source=fabe7c1b05ad19c3df47deab4ef97207)
+- **📘 在线教程**: [深入浅出 PyTorch - Datawhale](https://datawhalechina.github.io/thorough-pytorch/)
+- **🐙 GitHub 仓库**: [thorough-pytorch](https://github.com/datawhalechina/thorough-pytorch)
+
+---
+
+## 📕 学习路线与电子书
+
+本仓库收录了深度学习入门必备的学习路线图与经典电子书资源，帮助你系统化学习。
+
+- **📂 资料路径**: `学习路线+电子书/`
+
+### 📍 学习路线
+| 文件名 | 说明 |
+| :--- | :--- |
+| `2025年深度学习快速入门学习路线.xmind` | 🗺️ 深度学习系统学习路线图（思维导图格式，推荐使用 XMind 打开） |
+
+### 📖 精选电子书
+
+| 序号 | 书名 | 适用阶段 | 简介 |
+| :---: | :--- | :---: | :--- |
+| 1 | **《白话机器学习的数学》** | ⭐ 入门 | 用通俗易懂的语言讲解机器学习背后的数学原理，适合数学基础薄弱的同学 |
+| 2 | **《Mathematics for Machine Learning》** | ⭐⭐ 进阶 | 机器学习数学基础英文原版，系统讲解线性代数、概率论等核心数学知识 |
+| 3 | **《动手学深度学习 (PyTorch 版)》** | ⭐⭐ 进阶 | 李沐大神经典之作，理论+代码实战，PyTorch 学习必备 |
+| 4 | **《统计学习方法》(第二版)** - 李航 | ⭐⭐⭐ 经典 | 机器学习领域经典教材，系统讲解各类统计学习算法（含扫描版与文字版） |
+| 5 | **《利用 Python 进行数据分析》(第二版)** | ⭐ 入门 | Python 数据分析圣经，涵盖 NumPy、Pandas、Matplotlib 等核心库 |
+
+> 💡 **推荐学习顺序**: 
+> 1. 先看学习路线图，明确学习方向
+> 2. 数学基础 → 《白话机器学习的数学》/ 《Mathematics for Machine Learning》
+> 3. Python 数据处理 → 《利用 Python 进行数据分析》
+> 4. 深度学习实战 → 《动手学深度学习》
+> 5. 理论深化 → 《统计学习方法》
 
 ---
 
@@ -74,7 +113,8 @@ DeepLearning-Resources/
 
 欢迎贡献以下领域的资源：
 
-- [ ] **PyTorch 深度学习教程** (官方教程复现 / 实战案例)
+- [x] **学习路线与电子书** (入门路线图 / 经典教材 PDF)
+- [x] **PyTorch 深度学习教程** (小土堆视频教程 / Datawhale 深入浅出 PyTorch)
 - [ ] **Transformer 与 LLM 基础** (相关论文 / Demo)
 - [ ] **计算机视觉进阶** (分割 / 生成模型)
 
@@ -136,6 +176,9 @@ jupyter notebook
 
 ## 📅 更新日志
 
+- **2025-12-19**: 
+  - 新增「学习路线+电子书」文件夹，收录深度学习入门学习路线图及精选电子书。
+  - 新增 PyTorch 学习资源：小土堆视频教程 + Datawhale《深入浅出 PyTorch》。
 - **2025-12-15**: 新增哥布林学者笔记链接。
 - **2025-12-09**: 仓库初始化，完整整合吴恩达 Deep Learning Specialization（中/英双版）。
 
