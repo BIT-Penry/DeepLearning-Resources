@@ -6,7 +6,7 @@
 
 深度学习资源整合仓库。用于收纳优质课程资料、编程作业、实战代码与学习笔记，方便持续扩展与查阅。
 
-> **🌟 当前状态**：已完整收录 **吴恩达 Deep Learning Specialization** + **学习路线与精选电子书**，正在持续添加 **PyTorch** 及更多高质量资源。
+> **🌟 当前状态**：已完整收录 **吴恩达 Deep Learning Specialization** + **李沐《动手学深度学习》** + **学习路线与精选电子书**，持续更新中。
 
 ---
 
@@ -18,6 +18,7 @@
   - [📚 课程与资源](#-课程与资源)
     - [1. 吴恩达 - Deep Learning Specialization](#1-吴恩达---deep-learning-specialization)
     - [2. PyTorch 深度学习教程](#2-pytorch-深度学习教程)
+    - [3. 李沐《动手学深度学习》](#3-李沐动手学深度学习)
   - [📕 学习路线与电子书](#-学习路线与电子书)
     - [📍 学习路线](#-学习路线)
     - [📖 精选电子书](#-精选电子书)
@@ -37,8 +38,9 @@
 
 ```text
 DeepLearning-Resources/
-├── deeplearning.ai-andrewNG/   # 🇺🇸 英文原版：课件 PDF/PPT、编程作业、数据、图片
-├── 吴恩达深度学习作业/          # 🇨🇳 中文版：汉化作业、Quiz 测试、补充资料
+├── deeplearning.ai-andrewNG/   # 🇺🇸 吴恩达课程英文原版资料
+├── 吴恩达深度学习作业/          # 🇨🇳 吴恩达课程中文作业
+├── 李沐《动手学深度学习》/       # 📖 李沐 d2l 课程资料（笔记/作业/课件）
 ├── 学习路线+电子书/             # 📚 学习路线图 + 精选电子书资源
 ├── train_dl.ipynb              # 🧪 个人实战练习区
 ├── requirements.txt            # ⚙️ 项目依赖清单
@@ -76,6 +78,21 @@ DeepLearning-Resources/
 - **📺 视频教程**: [PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】](https://www.bilibili.com/video/BV1hE411t7RN?vd_source=fabe7c1b05ad19c3df47deab4ef97207)
 - **📘 在线教程**: [深入浅出 PyTorch - Datawhale](https://datawhalechina.github.io/thorough-pytorch/)
 - **🐙 GitHub 仓库**: [thorough-pytorch](https://github.com/datawhalechina/thorough-pytorch)
+
+### 3. 李沐《动手学深度学习》
+> **简介**: 李沐大神的深度学习经典课程，理论与代码实战并重，从基础到进阶系统讲解深度学习核心概念。  
+> **框架**: PyTorch
+
+- **📂 资料路径**: `李沐《动手学深度学习》/`
+  - `notebook/` - 课程代码笔记（510+ ipynb 文件）
+  - `homeworks/` - 课程作业（10 次作业 + 答案）
+  - `slides/` - 英文课件（按日期分类）
+  - `slides-zh/` - 中文课件（pptx 格式）
+- **📺 视频教程**: 
+  - B站：[动手学深度学习 v2](https://www.bilibili.com/video/BV1if4y147hS?vd_source=fabe7c1b05ad19c3df47deab4ef97207)
+  - 官网课程安排：[d2l-ai 课程安排](https://courses.d2l.ai/zh-v2/)
+- **📘 在线教程**: [动手学深度学习 - 中文电子书](https://zh-v2.d2l.ai/)
+- **🐙 GitHub 仓库**: [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)
 
 ---
 
@@ -115,6 +132,7 @@ DeepLearning-Resources/
 
 - [x] **学习路线与电子书** (入门路线图 / 经典教材 PDF)
 - [x] **PyTorch 深度学习教程** (小土堆视频教程 / Datawhale 深入浅出 PyTorch)
+- [x] **李沐《动手学深度学习》** (视频教程 / 课程笔记 / 作业 / 课件)
 - [ ] **Transformer 与 LLM 基础** (相关论文 / Demo)
 - [ ] **计算机视觉进阶** (分割 / 生成模型)
 
@@ -177,6 +195,7 @@ jupyter notebook
 ## 📅 更新日志
 
 - **2025-12-19**: 
+  - 新增「李沐《动手学深度学习》」完整课程资料（笔记 / 作业 / 中英文课件）。
   - 新增「学习路线+电子书」文件夹，收录深度学习入门学习路线图及精选电子书。
   - 新增 PyTorch 学习资源：小土堆视频教程 + Datawhale《深入浅出 PyTorch》。
 - **2025-12-15**: 新增哥布林学者笔记链接。
