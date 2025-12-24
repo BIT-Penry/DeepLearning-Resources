@@ -41,8 +41,9 @@ DeepLearning-Resources/
 ├── deeplearning.ai-andrewNG/   # 🇺🇸 吴恩达课程英文原版资料
 ├── 吴恩达深度学习作业/          # 🇨🇳 吴恩达课程中文作业
 ├── 李沐《动手学深度学习》/       # 📖 李沐 d2l 课程资料（笔记/作业/课件）
+├── Pytorch/                    # 🔥 PyTorch 实战代码与数据集
+│   └── course1-xiaotudui/     # 小土堆 PyTorch 课程自整理资料
 ├── 学习路线+电子书/             # 📚 学习路线图 + 精选电子书资源
-├── train_dl.ipynb              # 🧪 个人实战练习区
 ├── requirements.txt            # ⚙️ 项目依赖清单
 └── README.md                   # 📘 说明文档
 ```
@@ -75,6 +76,15 @@ DeepLearning-Resources/
 > **简介**: PyTorch 是目前学术界最流行的深度学习框架，以灵活性和易用性著称。  
 > **框架**: PyTorch
 
+- **📂 资料路径**: `Pytorch/course1-xiaotudui/`
+  - `scripts/` - 学习笔记与实战代码
+    - `learn_base.ipynb` - PyTorch 基础学习笔记
+    - `task1_cifar10.ipynb` - CIFAR10 图像分类实战
+    - `restructure_dataset.py` - 数据集重构工具脚本
+  - `data/` - 数据集（CIFAR10 / 蚂蚁蜜蜂分类）
+  - `checkpoints/` - 训练好的模型检查点
+  - `logs/` - TensorBoard 训练日志
+  - `images/` - 测试图片
 - **📺 视频教程**: [PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】](https://www.bilibili.com/video/BV1hE411t7RN?vd_source=fabe7c1b05ad19c3df47deab4ef97207)
 - **📘 在线教程**: [深入浅出 PyTorch - Datawhale](https://datawhalechina.github.io/thorough-pytorch/)
 - **🐙 GitHub 仓库**: [thorough-pytorch](https://github.com/datawhalechina/thorough-pytorch)
@@ -194,6 +204,9 @@ jupyter notebook
 
 ## 📅 更新日志
 
+- **2025-12-24**: 
+  - 新增「Pytorch/course1-xiaotudui」文件夹，收录小土堆 PyTorch 课程自整理代码与数据集。
+  - 包含 CIFAR10 图像分类实战、数据集重构工具、训练日志及模型检查点。
 - **2025-12-19**: 
   - 新增「李沐《动手学深度学习》」完整课程资料（笔记 / 作业 / 中英文课件）。
   - 新增「学习路线+电子书」文件夹，收录深度学习入门学习路线图及精选电子书。

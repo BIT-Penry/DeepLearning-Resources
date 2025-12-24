@@ -1,0 +1,26 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 训练日志（可选，如果不想上传到 GitHub）
+# Pytorch/course1-xiaotudui/logs/
+
+# macOS
+.DS_Store
+
