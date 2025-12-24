@@ -38,11 +38,11 @@
 
 ```text
 DeepLearning-Resources/
-├── deeplearning.ai-andrewNG/   # 🇺🇸 吴恩达课程英文原版资料
-├── 吴恩达深度学习作业/          # 🇨🇳 吴恩达课程中文作业
+├── 吴恩达《深度学习》英文原版/   # 🇺🇸 吴恩达课程英文原版资料
+├── 吴恩达《深度学习》课程作业/   # 🇨🇳 吴恩达课程中文作业
 ├── 李沐《动手学深度学习》/       # 📖 李沐 d2l 课程资料（笔记/作业/课件）
-├── Pytorch/                    # 🔥 PyTorch 实战代码与数据集
-│   └── course1-xiaotudui/     # 小土堆 PyTorch 课程自整理资料
+├── Pytorch学习资料/             # 🔥 PyTorch 实战代码与数据集
+│   └── course1-xiaotudui/      # 小土堆 PyTorch 课程自整理资料
 ├── 学习路线+电子书/             # 📚 学习路线图 + 精选电子书资源
 ├── requirements.txt            # ⚙️ 项目依赖清单
 └── README.md                   # 📘 说明文档
@@ -59,13 +59,13 @@ DeepLearning-Resources/
 > **框架**: TensorFlow / Keras
 
 - **📂 资料路径**: 
-  - 英文原版：`deeplearning.ai-andrewNG/`
-  - 中文作业：`吴恩达深度学习作业/`
+  - 英文原版：`吴恩达《深度学习》英文原版/`
+  - 中文作业：`吴恩达《深度学习》课程作业/`
 - **📺 视频教程**: [bilibili - 吴恩达深度学习 deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V?vd_source=fabe7c1b05ad19c3df47deab4ef97207)
 - **📝 配套资源**:
   - 课后作业解析：[吴恩达深度学习课后作业解析](https://blog.csdn.net/u013733326/article/details/79827273)
   - 学习笔记：[哥布林学者 -《吴恩达深度学习课程》系列笔记汇总](https://home.cnblogs.com/u/Goblinscholar)
-- **🧩 课程大纲**:
+- **📋 课程大纲**:
   - **COURSE 1**: Neural Networks and Deep Learning（基础 / 浅层网络）
   - **COURSE 2**: Improving Deep Neural Networks（初始化 / 正则化 / 优化 / 超参）
   - **COURSE 3**: Structuring Machine Learning Projects（ML 策略）
@@ -76,7 +76,7 @@ DeepLearning-Resources/
 > **简介**: PyTorch 是目前学术界最流行的深度学习框架，以灵活性和易用性著称。  
 > **框架**: PyTorch
 
-- **📂 资料路径**: `Pytorch/course1-xiaotudui/`
+- **📂 资料路径**: `Pytorch学习资料/course1-xiaotudui/`
   - `scripts/` - 学习笔记与实战代码
     - `learn_base.ipynb` - PyTorch 基础学习笔记
     - `task1_cifar10.ipynb` - CIFAR10 图像分类实战
@@ -205,8 +205,9 @@ jupyter notebook
 ## 📅 更新日志
 
 - **2025-12-24**: 
-  - 新增「Pytorch/course1-xiaotudui」文件夹，收录小土堆 PyTorch 课程自整理代码与数据集。
+  - 新增「Pytorch学习资料/course1-xiaotudui」文件夹，收录小土堆 PyTorch 课程自整理代码与数据集。
   - 包含 CIFAR10 图像分类实战、数据集重构工具、训练日志及模型检查点。
+  - 优化目录结构，使用更直观的中文命名：`吴恩达《深度学习》英文原版/`、`吴恩达《深度学习》课程作业/`、`Pytorch学习资料/`。
 - **2025-12-19**: 
   - 新增「李沐《动手学深度学习》」完整课程资料（笔记 / 作业 / 中英文课件）。
   - 新增「学习路线+电子书」文件夹，收录深度学习入门学习路线图及精选电子书。
