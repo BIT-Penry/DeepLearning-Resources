@@ -86,7 +86,9 @@ DeepLearning-Resources/
   - `logs/` - TensorBoard 训练日志
   - `images/` - 测试图片
 - **📺 视频教程**: [PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】](https://www.bilibili.com/video/BV1hE411t7RN?vd_source=fabe7c1b05ad19c3df47deab4ef97207)
-- **📘 在线教程**: [深入浅出 PyTorch - Datawhale](https://datawhalechina.github.io/thorough-pytorch/)
+- **📘 在线教程**: 
+  - [PyTorch 教程 - 菜鸟教程](https://www.runoob.com/pytorch/pytorch-tutorial.html) - 中文教程，适合初学者入门
+  - [深入浅出 PyTorch - Datawhale](https://datawhalechina.github.io/thorough-pytorch/) - 系统性进阶教程
 - **🐙 GitHub 仓库**: [thorough-pytorch](https://github.com/datawhalechina/thorough-pytorch)
 
 ### 3. 李沐《动手学深度学习》
@@ -204,6 +206,8 @@ jupyter notebook
 
 ## 📅 更新日志
 
+- **2025-12-25**: 
+  - 新增 [PyTorch 教程 - 菜鸟教程](https://www.runoob.com/pytorch/pytorch-tutorial.html) 学习资源，适合中文初学者入门。
 - **2025-12-24**: 
   - 新增「Pytorch学习资料/course1-xiaotudui」文件夹，收录小土堆 PyTorch 课程自整理代码与数据集。
   - 包含 CIFAR10 图像分类实战、数据集重构工具、训练日志及模型检查点。
